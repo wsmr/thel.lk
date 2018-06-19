@@ -8,10 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HttpModule } from '@angular/http';
 
+
+import { BmanagerPage } from '../pages/bmanager/bmanager';
+
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    BmanagerPage
   ],
 
   imports: [
@@ -23,7 +28,8 @@ import { HttpModule } from '@angular/http';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    BmanagerPage
   ],
   
   providers: [

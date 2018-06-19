@@ -18,6 +18,23 @@ export class BmanagerPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+
+  bDetails(){
+  	alert('Branch Details');
+  }
+
+  eDetails(){
+  	alert('Emplyee Details');
+  }
+
+  sDetails(){
+  	alert('Suppliers Details');
+  }
+
+  oDetails(){
+  	alert('Other Branch Details');
+  }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad BmanagerPage');
   }

@@ -6,13 +6,40 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>bmanager</ion-title>
+  <ion-navbar  color="green">
+    <ion-title>Login As Manager</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="background">
+		<ion-card>
+		  <ion-card-header>
+		    
+		  </ion-card-header>
 
+		  <ion-list>
+		    <button ion-item (click)="bDetails()" >
+		      <ion-icon name="clipboard" item-start></ion-icon>
+		      Branch Details
+		    </button>
+
+		   <button ion-item (click)="eDetails()" >
+		      <ion-icon name="man" item-start></ion-icon>
+		      Emplyee Details
+		    </button>
+
+		    <button ion-item (click)="sDetails()" >
+		      <ion-icon name="cart" item-start></ion-icon>
+		      Suppliers Details
+		    </button>
+
+		    <button ion-item (click)="oDetails()" >
+		      <ion-icon name="globe" item-start></ion-icon>
+		      Other Branch Details
+		    </button>
+
+		  </ion-list>
+		</ion-card>
 </ion-content>
