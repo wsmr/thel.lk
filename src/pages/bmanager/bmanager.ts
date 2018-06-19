@@ -20,7 +20,7 @@ export class BmanagerPage {
 
 
   bDetails(){
-  	alert('Branch Details');
+  	alert('Branch Detaidls');
   }
 
   eDetails(){
